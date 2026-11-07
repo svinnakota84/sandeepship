@@ -1,0 +1,1 @@
+const guide=document.getElementById('dialog');document.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{document.getElementById('dialog-content').innerHTML=content[b.dataset.open];guide.showModal()});document.querySelector('.close').onclick=()=>guide.close();
